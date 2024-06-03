@@ -1,4 +1,5 @@
 import { PlayerModel } from "../models/player-model"
+import { StatisticsModel } from "../models/statistics-model"
 
 const dataBase: PlayerModel[] = [
   {
@@ -815,4 +816,19 @@ export const findPlayerById = async (id: number): Promise<PlayerModel | undefine
 export const insertPlayer = async (player: PlayerModel) => {
   player.id = await createID()
   dataBase.push(player)
+}
+
+export const deleteOnePlayer = async (id: number) => {
+  const index = dataBase.findIndex(player => player.id === id)
+  index !== -1 && dataBase.splice(index, 1)
+}
+
+export const findAndModifyPlayer = async (id: number, statistics: StatisticsModel): Promise<PlayerModel> => {
+  const playerIndex = dataBase.findIndex(player => player.id === id)
+
+  if (playerIndex !== -1) {
+    dataBase[playerIndex].statistics = statistics
+  }
+
+  return dataBase[playerIndex]
 }

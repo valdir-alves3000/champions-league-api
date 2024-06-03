@@ -24,10 +24,18 @@ export const noContent = async (): Promise<HttpResponseModel> => {
   }
 }
 
-export const badRequest = async (): Promise<HttpResponseModel> => {
+export const badRequest = async (err: Error): Promise<HttpResponseModel> => {
 
   return {
     statusCode: 400,
+    body: err
+  }
+}
+
+export const notFound = async (): Promise<HttpResponseModel> => {
+
+  return {
+    statusCode: 404,
     body: null
   }
 }
