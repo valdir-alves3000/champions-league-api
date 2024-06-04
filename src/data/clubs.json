@@ -1,82 +1,142 @@
 [
   {
     "id": 1,
-    "name": "Real Madrid"
+    "name": "Real Madrid",
+    "attack": 87,
+    "midfield": 85,
+    "defense": 83
   },
   {
     "id": 2,
-    "name": "Barcelona"
+    "name": "Barcelona",
+    "attack": 86,
+    "midfield": 84,
+    "defense": 82
   },
   {
     "id": 3,
-    "name": "Atletico Madrid"
+    "name": "Atletico Madrid",
+    "attack": 84,
+    "midfield": 83,
+    "defense": 85
   },
   {
     "id": 4,
-    "name": "Manchester City"
+    "name": "Manchester City",
+    "attack": 88,
+    "midfield": 86,
+    "defense": 84
   },
   {
     "id": 5,
-    "name": "Liverpool"
+    "name": "Liverpool",
+    "attack": 87,
+    "midfield": 85,
+    "defense": 83
   },
   {
     "id": 6,
-    "name": "Chelsea"
+    "name": "Chelsea",
+    "attack": 85,
+    "midfield": 84,
+    "defense": 83
   },
   {
     "id": 7,
-    "name": "Manchester United"
+    "name": "Manchester United",
+    "attack": 86,
+    "midfield": 84,
+    "defense": 82
   },
   {
     "id": 8,
-    "name": "Tottenham Hotspur"
+    "name": "Tottenham Hotspur",
+    "attack": 85,
+    "midfield": 83,
+    "defense": 81
   },
   {
     "id": 9,
-    "name": "Paris Saint-Germain"
+    "name": "Paris Saint-Germain",
+    "attack": 89,
+    "midfield": 86,
+    "defense": 84
   },
   {
     "id": 10,
-    "name": "Bayern Munich"
+    "name": "Bayern Munich",
+    "attack": 89,
+    "midfield": 86,
+    "defense": 85
   },
   {
     "id": 11,
-    "name": "Borussia Dortmund"
+    "name": "Borussia Dortmund",
+    "attack": 85,
+    "midfield": 84,
+    "defense": 81
   },
   {
     "id": 12,
-    "name": "Inter Milan"
+    "name": "Inter Milan",
+    "attack": 84,
+    "midfield": 83,
+    "defense": 82
   },
   {
     "id": 13,
-    "name": "Juventus"
+    "name": "Juventus",
+    "attack": 85,
+    "midfield": 83,
+    "defense": 82
   },
   {
     "id": 14,
-    "name": "AC Milan"
+    "name": "AC Milan",
+    "attack": 84,
+    "midfield": 82,
+    "defense": 81
   },
   {
     "id": 15,
-    "name": "RB Leipzig"
+    "name": "RB Leipzig",
+    "attack": 83,
+    "midfield": 82,
+    "defense": 80
   },
   {
     "id": 16,
-    "name": "Atalanta"
+    "name": "Atalanta",
+    "attack": 83,
+    "midfield": 82,
+    "defense": 80
   },
   {
     "id": 17,
-    "name": "Sevilla"
+    "name": "Sevilla",
+    "attack": 82,
+    "midfield": 81,
+    "defense": 80
   },
   {
     "id": 18,
-    "name": "Porto"
+    "name": "Porto",
+    "attack": 81,
+    "midfield": 80,
+    "defense": 79
   },
   {
     "id": 19,
-    "name": "Benfica"
+    "name": "Benfica",
+    "attack": 81,
+    "midfield": 80,
+    "defense": 79
   },
   {
     "id": 20,
-    "name": "Ajax"
+    "name": "Ajax",
+    "attack": 82,
+    "midfield": 81,
+    "defense": 80
   }
 ]
